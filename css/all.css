@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	background: url(../images/bg_html.jpg);
+}
+.wrap{
+	width: 900px;
+	margin: 0 auto;
+}
+.header{
+	height: 81px;
+	position: relative;
+	padding-top: 20px;
+}
+.header h1{
+	height: 81px;
+	width: 171px;
+	background: url(../images/logo.png) no-repeat;
+	position: absolute;
+	text-indent: -9999px;
+	float: left;
+}
+.menu{
+	height: 20px;
+	float: left;
+	position: absolute;
+	padding-left: 210px;
+	padding-top: 60px;
+}
+.menu li{
+	height: 20px;
+	font-size: 18px;
+	font-family: monospace;
+	position: relative;
+	float: left;
+	padding-left: 40px; 
+}
+.link{
+	height: 23px;
+	float: left;
+	position: absolute;
+	padding-left: 834px;
+}
+.link li{
+	height: 23px;
+	position: relative;
+	float: left;
+	padding-left: 10px;
+}
+.slider{
+	height: 390px;
+	position: relative;
+	margin-top: 30px;
+}
+.slider img{
+	width: 600px;
+	float: left;
+	position: relative;
+}
+.slider_right{
+	width: 240px;
+	background-color: #444444;
+	float: left;
+	position: relative;
+	padding: 32px 30px 32px 30px;
+}
+.slider_right h2{
+	font-size: 50px;
+	font-family: monospace;
+	color: #009FCC;
+	position: relative;
+}
+.slider_right p{
+	font-family: monospace;
+	font-size: 16px;
+	color: #AAAAAA;
+	margin-top: 25px;
+	position: relative;
+	line-height: 25px;
+}
+.readmore{
+	background-color: #666666;
+	width: 150px;
+	height: 35px;
+	margin-top: 25px;
+	position: relative;
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+	font-family: monospace;
+	font-size: 20px;
+}
+.content{
+	height: 100px;
+	background-color: #fff;
+	position: relative;
+	margin-top: 20px;
+	padding: 30px 40px 30px 40px;
+}
+.content p{
+	font-size: 16px;
+	font-family: monospace;
+	color: #000;
+	line-height: 25px;
+}
+.page{
+	height: 400px;
+	background-color: #fff;
+	position: relative;
+	margin-top: 20px;
+	padding: 30px;
+}
+.left{
+	width: 590px;
+	position: relative;
+	float: left;
+}
+.left h3{
+	font-size: 30px;
+	font-family: monospace;
+	color: #000;
+	margin-bottom: 30px;
+}
+.event{
+	width: 590px;
+	position: relative;
+	float: left;
+	margin-bottom: 30px;
+}
+.event img{
+	width: 185px;
+	height: 140px;
+	position: relative;
+	float: left;
+	margin-right: 25px;
+	border-style: solid;
+	border-color: #DDDDDD;
+	border-width: 5px;
+}
+.event span{
+	width: 350px;
+	height: 20px;
+	position: relative;
+	float: left;
+	color: #000;
+	font-family: monospace;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.event p{
+	width: 350px;
+	height: 140px;
+	position: relative;
+	float: left;
+	font-size: 12px;
+	font-family: monospace;
+	color: #000;
+	line-height: 1.8em;
+	margin-top: 15px;
+}
+.right{
+	width: 250px;
+	position: relative;
+	float: left;
+}
+.right h4{
+	font-size: 30px;
+	font-family: monospace;
+	color: #000;
+	margin-bottom: 20px;
+}
+.right_top{
+	width: 230px;
+	float: left;
+	position: relative;
+	float: left;
+}
+.right_top li{
+	font-size: 20px;
+	color: #000;
+	list-style-position: inside;
+	list-style-image: url(../images/icon_03.png);
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-left: 5px;
+	line-height: 1em;
+}
+.right_bottom{
+	width: 230px;
+	float: left;
+	position: relative;
+	float: left;
+}
+.right_bottom input[type="text"]{
+	width: 220px;
+	height: 40px;
+	position: relative;
+	float: left;
+	background-color: #fff;
+	border-color: #DDDDDD;
+	border-width: 2px;
+	border-style: solid;
+	color: #DDDDDD;
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+.right_bottom input[type="submit"]{
+	width: 100px;
+	height: 40px;
+	position: relative;
+	float: left;
+	background-color: #D3D3D3;
+	color: #009FCC;
+	border:0;
+}
+.footer{
+	width: 900px;
+	height: 100px;
+	position: relative;
+	float: left;
+}
+.footer h5{
+	width: 900px;
+	font-size: 18px;
+	color: #000;
+	margin-top: 10px;
+	text-align: center;
+}
+.clear{clear: both;}
